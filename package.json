@@ -1,0 +1,45 @@
+{
+    "name": "js-react-project-cli",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "bin": {
+        "js-react-project-cli": "./bin/cli.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Alexey Kagansky - alex@kagansky.me",
+    "description": "CLI tool to create new projects from js-react-project template",
+    "keywords": [
+        "cli",
+        "template",
+        "generator",
+        "project-generator",
+        "boilerplate",
+        "starter",
+        "react",
+        "project",
+        "redux",
+        "router",
+        "vite",
+        "component",
+        "eslint",
+        "prettier",
+        "sass",
+        "swc",
+        "i18next",
+        "Internationalization i18next"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "commander": "^11.0.0",
+        "chalk": "^4.1.2",
+        "ora": "^5.4.1",
+        "inquirer": "^8.2.6"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ale4ko69/js-react-project-cli.git"
+    },
+    "preferGlobal": true
+}
